@@ -74,7 +74,7 @@
     "isFree": false,
     "contextWindow": "200K",
     "recommendedFor": "Strict QA & Edge Cases",
-    "defaultTemperature": 0.0
+    "defaultTemperature": 0
   },
   {
     "provider": "freellm",
@@ -85,7 +85,7 @@
     "isFree": true,
     "contextWindow": "128K",
     "recommendedFor": "Strict QA & Fast Processing",
-    "defaultTemperature": 0.0
+    "defaultTemperature": 0
   },
   {
     "provider": "openai",
@@ -96,12 +96,56 @@
     "isFree": false,
     "contextWindow": "200K",
     "recommendedFor": "Formal Verification & ADRs",
-    "defaultTemperature": 0.0
+    "defaultTemperature": 0
   },
   {
     "provider": "gemini",
     "vendor": "GEMINI",
-    "providerLabel": "Google Gemini",
+    "providerLabel": "Google Antigravity",
+    "modelId": "gemini-4-carbon",
+    "displayName": "Gemini 4 Carbon",
+    "isFree": false,
+    "contextWindow": "1M",
+    "recommendedFor": "Deep Frontier Reasoning, Architecture & Cybersecurity",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "gemini",
+    "vendor": "GEMINI",
+    "providerLabel": "Google Antigravity",
+    "modelId": "gemini-4-argon",
+    "displayName": "Gemini 4 Argon",
+    "isFree": false,
+    "contextWindow": "1M",
+    "recommendedFor": "Frontier Software Engineering & Multi-Turn Reasoning",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "gemini",
+    "vendor": "GEMINI",
+    "providerLabel": "Google Antigravity",
+    "modelId": "gemini-4-hydrogen",
+    "displayName": "Gemini 4 Hydrogen",
+    "isFree": false,
+    "contextWindow": "1M",
+    "recommendedFor": "Fast Agentic Workflows & Everyday Coding",
+    "defaultTemperature": 0.2
+  },
+  {
+    "provider": "gemini",
+    "vendor": "GEMINI",
+    "providerLabel": "Google Antigravity",
+    "modelId": "gemini-3.8-flash",
+    "displayName": "Gemini 3.8 Flash",
+    "isFree": false,
+    "contextWindow": "1M",
+    "recommendedFor": "Fast Multi-Agent Inquiries & Background Tasks",
+    "defaultTemperature": 0.2
+  },
+  {
+    "provider": "gemini",
+    "vendor": "GEMINI",
+    "providerLabel": "Google Antigravity",
     "modelId": "gemini-2.5-pro",
     "displayName": "Gemini 2.5 Pro",
     "isFree": false,
@@ -112,7 +156,7 @@
   {
     "provider": "freellm",
     "vendor": "GEMINI",
-    "providerLabel": "Google Gemini",
+    "providerLabel": "Google Antigravity",
     "modelId": "gemini-3.8-flash",
     "displayName": "Gemini 3.8 Flash",
     "isFree": true,
@@ -123,7 +167,7 @@
   {
     "provider": "freellm",
     "vendor": "GEMINI",
-    "providerLabel": "Google Gemini",
+    "providerLabel": "Google Antigravity",
     "modelId": "gemini-3.5-flash-lite",
     "displayName": "Gemini 3.5 Flash Lite",
     "isFree": true,
@@ -134,7 +178,7 @@
   {
     "provider": "freellm",
     "vendor": "GEMINI",
-    "providerLabel": "Google Gemini",
+    "providerLabel": "Google Antigravity",
     "modelId": "gemini-4-argon",
     "displayName": "Gemini 4 Argon",
     "isFree": true,
@@ -199,14 +243,58 @@
   },
   {
     "provider": "opencode",
+    "vendor": "OPENCODE",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "big-pickle",
+    "displayName": "Big Pickle (Zen)",
+    "isFree": true,
+    "contextWindow": "200K",
+    "recommendedFor": "Reasoning model for deliberate analysis, multi-step problem solving, ...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "XIAOMI",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "mimo-v2.6-flash-free",
+    "displayName": "MiMo-V2.6-Flash Free (Zen)",
+    "isFree": true,
+    "contextWindow": "200K",
+    "recommendedFor": "MiMo Flash model for multimodal coding agents and long-context automa...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "DEEPSEEK",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "deepseek-v4.1-flash-free",
+    "displayName": "DeepSeek V4.1 Flash Free (Zen)",
+    "isFree": true,
+    "contextWindow": "200K",
+    "recommendedFor": "October 17 update of DeepSeek V4.1 Flash with improved reasoning, cod...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "ZAI",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "glm-5.3-flash-free",
+    "displayName": "GLM-5.3-Flash Free (Zen)",
+    "isFree": true,
+    "contextWindow": "200K",
+    "recommendedFor": "Native multimodal GLM model for efficient coding and long-horizon age...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
     "vendor": "ANTHROPIC",
     "providerLabel": "OpenCode Zen",
-    "modelId": "claude-sonnet-5-5",
-    "displayName": "Claude Sonnet 5.5 (Zen)",
+    "modelId": "claude-fable-5-1",
+    "displayName": "Claude Fable 5.1 (Zen)",
     "isFree": false,
     "contextWindow": "1M",
-    "recommendedFor": "OpenCode Zen Architecture & Complex Problem Solving",
-    "defaultTemperature": 0.1
+    "recommendedFor": "Claude model for demanding reasoning and long-horizon agentic work",
+    "defaultTemperature": 0.2
   },
   {
     "provider": "opencode",
@@ -216,8 +304,8 @@
     "displayName": "Claude Haiku 5.5 (Zen)",
     "isFree": false,
     "contextWindow": "1M",
-    "recommendedFor": "OpenCode Zen Fast Responses & Rapid Iteration",
-    "defaultTemperature": 0.1
+    "recommendedFor": "Fast Claude model for responsive assistance, classification, and ligh...",
+    "defaultTemperature": 0.2
   },
   {
     "provider": "opencode",
@@ -227,51 +315,29 @@
     "displayName": "Claude Opus 5.5 (Zen)",
     "isFree": false,
     "contextWindow": "1M",
-    "recommendedFor": "OpenCode Zen Deep Reasoning & Synthesis",
-    "defaultTemperature": 0.1
+    "recommendedFor": "Claude model for long-running agentic coding and knowledge work",
+    "defaultTemperature": 0.2
   },
   {
     "provider": "opencode",
-    "vendor": "OPENAI",
+    "vendor": "ANTHROPIC",
     "providerLabel": "OpenCode Zen",
-    "modelId": "gpt-5.5",
-    "displayName": "GPT-5.5 (Zen)",
+    "modelId": "claude-sonnet-5-5",
+    "displayName": "Claude Sonnet 5.5 (Zen)",
     "isFree": false,
     "contextWindow": "1M",
-    "recommendedFor": "OpenCode Zen Frontier Engineering & Architecture",
-    "defaultTemperature": 0.1
+    "recommendedFor": "Fast Claude model for everyday coding, agents, and knowledge work",
+    "defaultTemperature": 0.2
   },
   {
     "provider": "opencode",
-    "vendor": "OPENAI",
+    "vendor": "DEEPSEEK",
     "providerLabel": "OpenCode Zen",
-    "modelId": "gpt-5.4-mini",
-    "displayName": "GPT-5.4 Mini (Zen)",
-    "isFree": false,
-    "contextWindow": "400K",
-    "recommendedFor": "OpenCode Zen Efficient Development & Fast Verification",
-    "defaultTemperature": 0.1
-  },
-  {
-    "provider": "opencode",
-    "vendor": "OPENAI",
-    "providerLabel": "OpenCode Zen",
-    "modelId": "gpt-5.3-codex",
-    "displayName": "GPT-5.3 Codex (Zen)",
-    "isFree": false,
-    "contextWindow": "400K",
-    "recommendedFor": "OpenCode Zen Autonomous Code Specialist",
-    "defaultTemperature": 0.1
-  },
-  {
-    "provider": "opencode",
-    "vendor": "OPENAI",
-    "providerLabel": "OpenCode Zen",
-    "modelId": "gpt-6-astra",
-    "displayName": "GPT-6 Astra (Zen)",
+    "modelId": "deepseek-v4.1-flash",
+    "displayName": "DeepSeek V4.1 Flash 1017 (Zen)",
     "isFree": false,
     "contextWindow": "1M",
-    "recommendedFor": "OpenCode Zen Next-Gen System Modeling",
+    "recommendedFor": "October 17 update of DeepSeek V4.1 Flash with improved reasoning, cod...",
     "defaultTemperature": 0.1
   },
   {
@@ -282,18 +348,18 @@
     "displayName": "DeepSeek V4 Pro (Zen)",
     "isFree": false,
     "contextWindow": "1M",
-    "recommendedFor": "OpenCode Zen Native Thinking & Reasoning",
+    "recommendedFor": "Open MoE flagship with million-token context for coding and long agen...",
     "defaultTemperature": 0.1
   },
   {
     "provider": "opencode",
-    "vendor": "DEEPSEEK",
+    "vendor": "GOOGLE",
     "providerLabel": "OpenCode Zen",
-    "modelId": "deepseek-v4.1-flash",
-    "displayName": "DeepSeek V4.1 Flash (Zen)",
+    "modelId": "gemini-3.5-flash-lite",
+    "displayName": "Gemini 3.5 Flash Lite (Zen)",
     "isFree": false,
     "contextWindow": "1M",
-    "recommendedFor": "OpenCode Zen High-Speed Code Generation",
+    "recommendedFor": "Fast Gemini model balancing multimodal reasoning, tool use, and cost",
     "defaultTemperature": 0.1
   },
   {
@@ -304,18 +370,150 @@
     "displayName": "Gemini 3.8 Flash (Zen)",
     "isFree": false,
     "contextWindow": "1M",
-    "recommendedFor": "OpenCode Zen Long-Context RAG & Reasoning",
+    "recommendedFor": "Google's most intelligent Flash model, engineered for long-horizon so...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "GOOGLE",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "gemini-4-argon",
+    "displayName": "Gemini 4 Argon (Zen)",
+    "isFree": false,
+    "contextWindow": "1M",
+    "recommendedFor": "Google's flagship reasoning model for complex software engineering, d...",
     "defaultTemperature": 0.2
   },
   {
     "provider": "opencode",
-    "vendor": "MISTRAL",
+    "vendor": "ZAI",
     "providerLabel": "OpenCode Zen",
-    "modelId": "mistral-large-4",
-    "displayName": "Mistral Large 4 (Zen)",
+    "modelId": "glm-5.3",
+    "displayName": "GLM-5.3 (Zen)",
     "isFree": false,
-    "contextWindow": "524K",
-    "recommendedFor": "OpenCode Zen Open MoE Architecture",
+    "contextWindow": "1M",
+    "recommendedFor": "Flagship GLM model for long-horizon coding, agents, and complex proje...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "ZAI",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "glm-5.3-flash",
+    "displayName": "GLM-5.3-Flash (Zen)",
+    "isFree": false,
+    "contextWindow": "1M",
+    "recommendedFor": "Native multimodal GLM model for efficient coding and long-horizon age...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "OPENAI",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "gpt-5.3-codex",
+    "displayName": "GPT-5.3 Codex (Zen)",
+    "isFree": false,
+    "contextWindow": "400K",
+    "recommendedFor": "Coding-optimized GPT model for repository edits, reviews, and agentic...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "OPENAI",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "gpt-5.3-codex-spark",
+    "displayName": "GPT-5.3 Codex Spark (Zen)",
+    "isFree": false,
+    "contextWindow": "128K",
+    "recommendedFor": "Coding-optimized GPT model for repository edits, reviews, and agentic...",
+    "defaultTemperature": 0.2
+  },
+  {
+    "provider": "opencode",
+    "vendor": "OPENAI",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "gpt-5.4-mini",
+    "displayName": "GPT-5.4 Mini (Zen)",
+    "isFree": false,
+    "contextWindow": "400K",
+    "recommendedFor": "Compact GPT model for low-latency assistance and high-volume workloads",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "OPENAI",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "gpt-5.4-nano",
+    "displayName": "GPT-5.4 Nano (Zen)",
+    "isFree": false,
+    "contextWindow": "400K",
+    "recommendedFor": "Compact GPT model for low-latency assistance and high-volume workloads",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "OPENAI",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "gpt-5.5",
+    "displayName": "GPT-5.5 (Zen)",
+    "isFree": false,
+    "contextWindow": "1M",
+    "recommendedFor": "Default frontier GPT for coding, computer use, research, and knowledg...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "OPENAI",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "gpt-5.5-pro",
+    "displayName": "GPT-5.5 Pro (Zen)",
+    "isFree": false,
+    "contextWindow": "1M",
+    "recommendedFor": "Frontier GPT model for professional reasoning, coding, and multimodal...",
+    "defaultTemperature": 0.2
+  },
+  {
+    "provider": "opencode",
+    "vendor": "OPENAI",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "gpt-6-astra",
+    "displayName": "GPT-6 Astra (Zen)",
+    "isFree": false,
+    "contextWindow": "1M",
+    "recommendedFor": "GPT-6 Astra is OpenAI's most capable model for complex reasoning, cod...",
+    "defaultTemperature": 0.2
+  },
+  {
+    "provider": "opencode",
+    "vendor": "OPENAI",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "gpt-6.1-sol",
+    "displayName": "GPT-6.1 Sol (Zen)",
+    "isFree": false,
+    "contextWindow": "1M",
+    "recommendedFor": "Near-Astra performance for complex coding, computer use, and professi...",
+    "defaultTemperature": 0.2
+  },
+  {
+    "provider": "opencode",
+    "vendor": "OPENAI",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "gpt-6-luna",
+    "displayName": "GPT-6 Luna (Zen)",
+    "isFree": false,
+    "contextWindow": "1M",
+    "recommendedFor": "OpenAI's most efficient model for focused, high-volume tasks",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "OPENAI",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "gpt-5.6-terra",
+    "displayName": "GPT-5.6 Terra (Zen)",
+    "isFree": false,
+    "contextWindow": "1M",
+    "recommendedFor": "Balanced GPT-5.6 model for capable, cost-efficient everyday work",
     "defaultTemperature": 0.1
   },
   {
@@ -326,7 +524,18 @@
     "displayName": "Grok 4.7 (Zen)",
     "isFree": false,
     "contextWindow": "500K",
-    "recommendedFor": "OpenCode Zen Technical Research & Planning",
+    "recommendedFor": "xAI's frontier model for long-running agents, coding, knowledge work,...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "XAI",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "grok-build-0.1",
+    "displayName": "Grok Build 0.1 (Zen)",
+    "isFree": false,
+    "contextWindow": "256K",
+    "recommendedFor": "Fast Grok coding model tuned for agentic engineering and iterative edits",
     "defaultTemperature": 0.1
   },
   {
@@ -337,7 +546,51 @@
     "displayName": "Kimi K2.7 Code (Zen)",
     "isFree": false,
     "contextWindow": "262K",
-    "recommendedFor": "OpenCode Zen Dedicated Code Engineering",
+    "recommendedFor": "Coding-focused Kimi model, stronger on long-horizon repo work with le...",
+    "defaultTemperature": 0.2
+  },
+  {
+    "provider": "opencode",
+    "vendor": "MOONSHOT",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "kimi-k3",
+    "displayName": "Kimi K3 (Zen)",
+    "isFree": false,
+    "contextWindow": "1M",
+    "recommendedFor": "Multimodal Kimi model with 1M context and toggleable max-effort think...",
+    "defaultTemperature": 0.2
+  },
+  {
+    "provider": "opencode",
+    "vendor": "MINIMAX",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "minimax-m3",
+    "displayName": "MiniMax-M3 (Zen)",
+    "isFree": false,
+    "contextWindow": "512K",
+    "recommendedFor": "MiniMax multimodal model for long-context coding, perception, and age...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "META",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "muse-wonder-1.0",
+    "displayName": "Muse Wonder (Zen)",
+    "isFree": false,
+    "contextWindow": "1M",
+    "recommendedFor": "Muse Wonder is a frontier multimodal reasoning model from Meta for pe...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "MISTRAL",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "mistral-large-4",
+    "displayName": "Mistral Large 4 (Zen)",
+    "isFree": false,
+    "contextWindow": "524K",
+    "recommendedFor": "Mistral's 1T-parameter multimodal MoE for reasoning, coding, and agen...",
     "defaultTemperature": 0.1
   },
   {
@@ -345,21 +598,43 @@
     "vendor": "ALIBABA",
     "providerLabel": "OpenCode Zen",
     "modelId": "qwen3.8-flash",
-    "displayName": "Qwen 3.8 Flash (Zen)",
+    "displayName": "Qwen3.8 Flash (Zen)",
     "isFree": false,
     "contextWindow": "1M",
-    "recommendedFor": "OpenCode Zen Visual & Document Engineering",
+    "recommendedFor": "Qwen vision-language model for visual reasoning, documents, and agent...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "MEITUAN",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "longcat-2.5-free",
+    "displayName": "LongCat 2.5 Free (Zen)",
+    "isFree": true,
+    "contextWindow": "1M",
+    "recommendedFor": "Meituan's multimodal reasoning model for long-horizon coding and agen...",
+    "defaultTemperature": 0.2
+  },
+  {
+    "provider": "opencode",
+    "vendor": "OPENCODE",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "iceman-free",
+    "displayName": "Iceman Free (Zen)",
+    "isFree": true,
+    "contextWindow": "262K",
+    "recommendedFor": "Stealth model, free for a limited time",
     "defaultTemperature": 0.1
   },
   {
     "provider": "opencode",
     "vendor": "OPENCODE",
     "providerLabel": "OpenCode Zen",
-    "modelId": "big-pickle",
-    "displayName": "Big Pickle (Zen Community)",
+    "modelId": "inkling-2-small-free",
+    "displayName": "Inkling 2 Small Free (Zen)",
     "isFree": true,
-    "contextWindow": "200K",
-    "recommendedFor": "OpenCode Zen Deliberate Analysis & Tool Use",
+    "contextWindow": "1M",
+    "recommendedFor": "Inkling 2 Small, free for a limited time",
     "defaultTemperature": 0.1
   },
   {
@@ -367,10 +642,109 @@
     "vendor": "OPENCODE",
     "providerLabel": "OpenCode Zen",
     "modelId": "beam-free",
-    "displayName": "Beam Free (Zen Community)",
+    "displayName": "Beam Free (Zen)",
     "isFree": true,
     "contextWindow": "1M",
-    "recommendedFor": "OpenCode Zen Sparse MoE Agentic Workflows",
+    "recommendedFor": "Sparse mixture-of-experts reasoning model with 23B active parameters ...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "OPENCODE",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "flint-40b-free",
+    "displayName": "Flint 40B Free (Zen)",
+    "isFree": true,
+    "contextWindow": "262K",
+    "recommendedFor": "Open-weight mixture-of-experts model with about 2.5B active parameter...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "NVIDIA",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "nemotron-3.5-super-vl-free",
+    "displayName": "Nemotron 3.5 Super VL Free (Zen)",
+    "isFree": true,
+    "contextWindow": "1M",
+    "recommendedFor": "NVIDIA vision-language reasoning model for text, image, and video und...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "NVIDIA",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "nemotron-3.5-lightning-free",
+    "displayName": "Nemotron 3.5 Lightning Free (Zen)",
+    "isFree": true,
+    "contextWindow": "262K",
+    "recommendedFor": "Fast NVIDIA Nemotron MoE for reliable agentic tasks across enterprise...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "META",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "muse-ember-1.0",
+    "displayName": "Muse Ember 1.0 (Zen)",
+    "isFree": false,
+    "contextWindow": "1M",
+    "recommendedFor": "Reasoning model from Meta with text, image, video and PDF input and t...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "ANTHROPIC",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "claude-fable-5-2",
+    "displayName": "Claude Fable 5.2 (Zen)",
+    "isFree": false,
+    "contextWindow": "1M",
+    "recommendedFor": "Claude model for demanding reasoning and long-horizon agentic work",
+    "defaultTemperature": 0.2
+  },
+  {
+    "provider": "opencode",
+    "vendor": "MINIMAX",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "minimax-m3.1-flash-free",
+    "displayName": "MiniMax M3.1 Flash Free (Zen)",
+    "isFree": true,
+    "contextWindow": "1M",
+    "recommendedFor": "Frontier multimodal coding model with 1M context window and tunable t...",
+    "defaultTemperature": 0.1
+  },
+  {
+    "provider": "opencode",
+    "vendor": "GOOGLE",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "gemini-4-carbon",
+    "displayName": "Gemini 4 Carbon (Zen)",
+    "isFree": false,
+    "contextWindow": "1M",
+    "recommendedFor": "Google's most capable reasoning model for complex software engineerin...",
+    "defaultTemperature": 0.2
+  },
+  {
+    "provider": "opencode",
+    "vendor": "GOOGLE",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "gemini-4-hydrogen",
+    "displayName": "Gemini 4 Hydrogen (Zen)",
+    "isFree": false,
+    "contextWindow": "1M",
+    "recommendedFor": "Google's Gemini 4 model for everyday coding and agentic workflows, wi...",
+    "defaultTemperature": 0.2
+  },
+  {
+    "provider": "opencode",
+    "vendor": "TENCENT",
+    "providerLabel": "OpenCode Zen",
+    "modelId": "hy4-flash-free",
+    "displayName": "Hy4 flash Free (Zen)",
+    "isFree": true,
+    "contextWindow": "1M",
+    "recommendedFor": "Tencent's lower-cost Hy4 tier for everyday agent and productivity tas...",
     "defaultTemperature": 0.1
   },
   {
@@ -415,7 +789,7 @@
     "isFree": false,
     "contextWindow": "64K",
     "recommendedFor": "Deep Reasoning via OpenRouter",
-    "defaultTemperature": 0.0
+    "defaultTemperature": 0
   },
   {
     "provider": "openrouter",
@@ -462,4 +836,3 @@
     "defaultTemperature": 0.2
   }
 ]
-
